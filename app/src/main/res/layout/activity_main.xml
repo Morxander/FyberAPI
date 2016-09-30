@@ -10,8 +10,42 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="morxander.fyberapi.activities.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <EditText
+        android:id="@+id/edittext_uid"
+        style="@style/form_edit_text"
+        android:hint="UID" />
+
+    <EditText
+        android:id="@+id/edittext_api_key"
+        style="@style/form_edit_text"
+        android:layout_below="@id/edittext_uid"
+        android:hint="API Key" />
+
+    <EditText
+        android:id="@+id/edittext_app_id"
+        style="@style/form_edit_text"
+        android:layout_below="@id/edittext_api_key"
+        android:hint="APP ID" />
+
+    <EditText
+        android:id="@+id/edittext_pub"
+        style="@style/form_edit_text"
+        android:layout_below="@id/edittext_app_id"
+        android:hint="Pub0" />
+
+    <Button
+        android:id="@+id/button_submit"
+        style="@style/form_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Get Offers!" />
+
+    <Button
+        android:id="@+id/button_fill_data"
+        style="@style/form_button"
+        android:layout_above="@id/button_submit"
+        android:text="Fill with sample data" />
+
+
 </RelativeLayout>
