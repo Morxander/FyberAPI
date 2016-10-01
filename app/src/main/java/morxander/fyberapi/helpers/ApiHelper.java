@@ -16,7 +16,7 @@ public class ApiHelper {
     private static String API_BASE_URL = "http://api.fyber.com/feed/v1/";
     private static String OFFERS_PATH = "offers.json";
 
-    public String offersUrl(){
+    public static String offersUrl(){
         return API_BASE_URL + OFFERS_PATH;
     }
 
