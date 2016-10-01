@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import morxander.fyberapi.FyberApp;
+import morxander.fyberapi.R;
 import morxander.fyberapi.activities.OffersActivity;
 import morxander.fyberapi.helpers.RequestListener;
 import morxander.fyberapi.items.OfferItem;
@@ -83,13 +84,13 @@ public class OffersActivityPresenter extends Presenter<OffersActivity> {
             }
         }else if(status == 4){
             if(getView() != null){
-                getView().empty_text.setText("Network Error");
+                getView().empty_text.setText(getView().getString(R.string.network_error));
                 getView().empty_view.setVisibility(View.VISIBLE);
                 getView().hideDialog();
             }
         }else if(status == 3){
             if(getView() != null) {
-                getView().empty_text.setText("No offers");
+                getView().empty_text.setText(getView().getString(R.string.no_offers));
                 getView().empty_view.setVisibility(View.VISIBLE);
                 getView().hideDialog();
             }
