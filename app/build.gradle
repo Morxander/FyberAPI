@@ -26,12 +26,13 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:23.4.0'
-    testCompile 'junit:junit:4.12'
     compile 'com.jakewharton:butterknife:8.4.0'
-    apt 'com.jakewharton:butterknife-compiler:8.4.0'
     compile 'info.android15.nucleus:nucleus:4.0.0'
     compile 'info.android15.nucleus:nucleus-support-v4:4.0.0'
     compile 'info.android15.nucleus:nucleus-support-v7:4.0.0'
     compile 'com.squareup.okhttp3:okhttp:3.4.1'
     compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.android.support:design:23.4.0'
+    testCompile 'junit:junit:4.12'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
 }
