@@ -2,7 +2,7 @@
 
 This is an example Application for using [Fyber API](http://developer.fyber.com/content/current/android/).
 
-This App is using `MVP` design pattern [Wiki](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) and to apply this pattern it uses [Nucleus](https://github.com/konmik/nucleus) library.
+This App is using `MVP` design pattern ( [Wiki](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) ) and to apply this pattern it uses [Nucleus](https://github.com/konmik/nucleus) library.
 
 ## Getting Started
 
