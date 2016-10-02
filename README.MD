@@ -2,7 +2,7 @@
 
 This is an example Application for using [Fyber API](http://developer.fyber.com/content/current/android/).
 
-This App is using `MVP` design pattern ([Wiki]((https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter))) and to apply this pattern it uses [Nucleus](https://github.com/konmik/nucleus) library.
+This App is using `MVP` design pattern [Wiki](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) and to apply this pattern it uses [Nucleus](https://github.com/konmik/nucleus) library.
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ Just open and modifiy the following files :
         app/src/main/java/morxander/fyberapi/helpers/ApiHelper.java
         app/src/main/java/morxander/fyberapi/activities/MainActivity.java
         
-## List oof 3rd party libraries
+## List of 3rd party libraries
 
 * [Nucleus](https://github.com/konmik/nucleus)
 * [Butter Knife](https://github.com/JakeWharton/butterknife)
