@@ -19,9 +19,17 @@ Just open and modifiy the following files :
         app/src/main/java/morxander/fyberapi/helpers/ApiHelper.java
         app/src/main/java/morxander/fyberapi/activities/MainActivity.java
         
+## Testing
+
+Just run the following test
+
+    app/src/test/java/morxander/fyberapi/MainActivityTest.java
+
+        
 ## List of 3rd party libraries
 
 * [Nucleus](https://github.com/konmik/nucleus)
 * [Butter Knife](https://github.com/JakeWharton/butterknife)
 * [OkHttp](http://square.github.io/okhttp/)
 * [Picasso](http://square.github.io/picasso/)
+* [Robolectric](http://robolectric.org/)
